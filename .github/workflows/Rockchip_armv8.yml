@@ -10,7 +10,7 @@ on:
         default: 'false'
 
 env:
-  OPNAME: 'Rockchip(R4S、R2S、OPiR1Plus)'
+  OPNAME: 'Rockchip(R4S、R2S、OPiR1Plus、OPiR1PlusLTS)'
   REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
@@ -21,7 +21,7 @@ env:
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
   UPLOAD_RELEASE: true
-  TZ: Asia/Shanghai
+  TZ: Europe/Moscow
 
 jobs:
   build:
